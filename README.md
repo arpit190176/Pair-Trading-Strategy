@@ -8,3 +8,7 @@ Pairs trading is a strategy in which we use various statistical methods to  pair
 
 There are two approaches:
 ## Distance Approach
+The approach was proposed in a research paper  by Gatev et al
+In simple words the distance approach is when two stock prices are taken to see if they’re moving together based on a simple metric like a simple Euclidean distance. Then the spread of these two prices is calculated during the trading period and if it diverges greatly we just TRADE!!
+
+
