@@ -8,7 +8,8 @@ Pairs trading is a strategy in which we use various statistical methods to  pair
 
 There are two approaches:
 ## Distance Approach
-The approach was proposed in a research paper  by Gatev et al
+The approach was proposed in a research paper  by Gatev et al.
 In simple words the distance approach is when two stock prices are taken to see if they’re moving together based on a simple metric like a simple Euclidean distance. Then the spread of these two prices is calculated during the trading period and if it diverges greatly we just TRADE!!
 
-
+## Cointegration Approach
+Cointegration is a statistical property of a collection of time series variables which allow dynamic modelling of non stationary time series sharing a common stochastic trend. To check whether the given pair is cointegrated or not,  we can employ hypothesis testing. We form a null hypothesis that there is no cointegration, the alternative hypothesis is that there is cointegrating relationship. For that purpose we have to look at the p-value. A smaller p-value means that there is stronger evidence in favor of the alternative hypothesis.To find out the p-value we used a python library called “statsmodels“.
